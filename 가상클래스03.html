@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+        a{text-decoration: none;}
+        .list{
+            display: inline-block;
+        }
+        .list li a {
+            display: block;
+            padding: 10px;
+            position: relative;
+        }
+        .list li a::after {
+          content: "";
+          position:absolute;
+        }
+        .list li a::before {
+          content: "";
+          position:absolute;
+          
+        }
+        li
+
+
+    </style>
+</head>
+<body>
+    <ul class="list">
+        <li><a href="#">menu01</a></li>
+        <li><a href="#">menu02</a></li>
+        <li><a href="#">menu03</a></li>
+        <li><a href="#">menu04</a></li>
+        <li><a href="#">menu05</a></li>
+    </ul>
+</body>
+</html>
